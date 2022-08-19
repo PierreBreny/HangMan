@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hidden-word {
+    text-transform: uppercase;
+    margin-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: white
+}
+
+#input-section {
+    margin-top: 25%;
+}
+
+input {
+    margin-top: 10%;
+    height: 49px;
+    width: 50px;
+    background-color:white;
+    caret-color: gray;
+    text-transform:uppercase;
+    font-size: large;
+    text-align: center;
+}
+
+#submit {
+    width: 120px;
+    height: 60px;
+    background-color: brown;
+    color: aliceblue;
+}
+
+
+#input-result {
+
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 0 5%;
+}
+
+.sticks {
+    
+    flex: 1;
+}
+
+.wrong {
+    
+    flex: 2;
+}
+
+#input-result h1 {
+    margin-top: 45px;
+}
+
+#input-result div {
+    flex: 4
+}
+
+
+
+
+/* Wrong letter */
+
+.wrong {
+    color: rgb(244, 247, 245);
+    text-transform: uppercase;
+}
+
+.step-0 {
+    background-image: url(images/start-bg.png);
+}
+
+.step-1{
+    background-image: url(images/step-1.png);
+}
+
+.step-2{
+    background-image: url(images/step-2.png);
+}
+
+.step-3{
+    background-image: url(images/step-3.png);
+}
+
+.step-4{
+    background-image: url(images/step-4.png);
+}
+
+.step-5{
+    background-image: url(images/step-5.png);
+}
+
+.step-6{
+    background-image: url(images/step-6.png);
+}
+
+.step-7{
+    background-image: url(images/step-7.png);
+}
+
+.step-8 {
+    background-image: url(images/step-8.png);
+}

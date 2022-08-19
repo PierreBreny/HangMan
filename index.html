@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>HangMan</title>
+</head>
+<body class="step-0">
+    <div id="main">
+
+        <div id="container">
+            <div id="hidden-word">
+                <h1 id="hWord"><strong>TEST</strong></h1>
+            </div>
+            
+            <div id="input-section">
+                <input onkeypress="if(event.keyCode == 13) guess()" id="input" type="text" maxlength="1">
+                <button onclick="guess()" id="submit" type="submit" >SUBMIT</button>
+            </div>
+        </div>
+
+        <div id="input-result">
+            <h1 class="wrong"><span id="wrong"></h1></span>
+            <div></div>
+            <h1 class="sticks"></h1>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
